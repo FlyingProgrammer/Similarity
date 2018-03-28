@@ -188,7 +188,12 @@ namespace Similarity
             }
             return maxRowIndex;
         }
-
+        /// <summary>
+        /// Leven算法，最短编辑距离
+        /// </summary>
+        /// <param name="value1"></param>
+        /// <param name="value2"></param>
+        /// <returns></returns>
         private static double Leven(string value1, string value2)
         {
             int len1 = value1.Length;
